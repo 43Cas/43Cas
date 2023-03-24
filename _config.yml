@@ -4,7 +4,7 @@
 
 # Site
 title: 43Cas's Base
-subtitle: 'home'
+subtitle: home
 description: 'maybe'
 keywords: 43Cas Senko
 author: 43Cas
@@ -102,4 +102,8 @@ theme: LiveForCode
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: 
+    github: https://github.com/43Cas/43Cas.github.io.git
+    branch: main
+
